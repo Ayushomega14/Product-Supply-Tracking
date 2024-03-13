@@ -1,8 +1,17 @@
 /* Authentication page specific styles */
 body {
-    background-image: url('download.jpeg'); /* Replace 'authentication-background.jpg' with your image file */
-    background-size: cover;
-    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Set width to 100% to cover entire viewport */
+    height: 100%; /* Set height to 100% to cover entire viewport */
+    object-fit: cover; /* Scale video to cover entire container */
+    z-index: -1;
 }
 
 header {
@@ -22,6 +31,7 @@ form {
 label {
     display: block;
     margin-bottom: 10px;
+    color: #123ed1; /* Text color for labels */
 }
 
 input[type="text"],
@@ -31,6 +41,7 @@ input[type="password"] {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    color: #123ed1; /* Text color for input fields */
 }
 
 button {
