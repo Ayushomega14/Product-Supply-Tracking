@@ -1,0 +1,64 @@
+/* Tracking page specific styles */
+body {
+    background-image: url('route-location-with-two-map-pin-shipment-tracker-tracking-track-order-concept-illustration-flat-design-eps10-graphic-element-for-icon-symbol-infographic-empty-state-app-or-web-ui-vector.jpg'); /* Replace 'tracking-background.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    color: #030303e7;
+}
+
+.tracking-box {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+#track-button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#tracking-info {
+    margin-top: 20px;
+}
+
+#tracking-info p {
+    margin: 5px 0;
+}
+
+#tracking-info strong {
+    font-weight: bold;
+    margin-right: 5px;
+}

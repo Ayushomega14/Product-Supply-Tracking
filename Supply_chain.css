@@ -1,0 +1,46 @@
+/* Styles for Supply Chain Best Practices page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #6c51f7;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.resource-box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+h2 {
+    color: #6c51f7;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #6c51f7;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Hover effect */
+.resource-box:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

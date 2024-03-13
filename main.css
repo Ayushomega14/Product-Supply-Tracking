@@ -1,0 +1,135 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Industrial-Supply-Chain-Tracking.jpg'); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #0d0303;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.388); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #123ed1;
+    line-height: 1.5;
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ef1111;
+}
+
+/* Footer styles */
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* Contact board styles */
+.contact-board {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-board-item {
+    flex-basis: 300px;
+    padding: 20px;
+    background-color: #fbf9f946;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.contact-board-item h3 {
+    color: #333;
+}
+
+.contact-board-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-board-item ul li {
+    margin-bottom: 10px;
+}
+
+.contact-board-item p {
+    color: #666;
+    margin-top: 15px;
+}
