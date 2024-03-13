@@ -3,10 +3,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('Industrial-Supply-Chain-Tracking.jpg'); /* Replace 'background.jpg' with your image file */
-    background-size: cover;
-    background-position: center;
-    color: #333;
+    color: #123ed1; /* Blue color for text */
+}
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio */
+    z-index: -1;
 }
 
 /* Header styles */
@@ -20,6 +27,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5rem;
+    color: #fff; /* White color for headings */
 }
 
 /* Navigation styles */
@@ -34,7 +42,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #0d0303;
+    color: #123ed1; /* Blue color for links */
     text-decoration: none;
     font-size: 1.2rem;
     transition: color 0.3s ease;
@@ -42,7 +50,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffd700;
+    color: #ffd700; /* Yellow color on hover */
 }
 
 /* Main content styles */
@@ -65,11 +73,10 @@ section:hover {
 }
 
 h2 {
-    color: #333;
+    color: #fff; /* White color for headings */
 }
 
 p {
-    color: #123ed1;
     line-height: 1.5;
 }
 
@@ -117,7 +124,7 @@ footer {
 }
 
 .contact-board-item h3 {
-    color: #333;
+    color: #fff; /* White color for headings */
 }
 
 .contact-board-item ul {
@@ -130,6 +137,6 @@ footer {
 }
 
 .contact-board-item p {
-    color: #666;
+    color: #123ed1; /* Blue color for text */
     margin-top: 15px;
 }
